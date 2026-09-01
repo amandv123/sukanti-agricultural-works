@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 88px;
+  }
+  body {
+    @apply bg-brand-cream text-brand-ink font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display tracking-[-0.02em];
+  }
+  ::selection {
+    @apply bg-brand-gold/40;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.section-label {
+  @apply text-brand-fresh font-semibold text-xs sm:text-sm tracking-wide uppercase;
+}
