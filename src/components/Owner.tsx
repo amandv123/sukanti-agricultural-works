@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import ownerImage from '../assets/owner-hero-16x9.png'
+import ownerImage from '../assets/owner-hero-16x9.webp'
 
 export default function Owner() {
   return (
@@ -16,6 +16,8 @@ export default function Owner() {
             src={ownerImage}
             alt="Karan Tudu and Sukanti Tudu beside a tractor"
             className="absolute inset-0 h-full w-full scale-[1.015] object-cover blur-[0.45px]"
+            loading="lazy"
+            decoding="async"
           />
 
           {/* Soft darkening keeps the text readable without hiding the real photo. */}
