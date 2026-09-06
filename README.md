@@ -1,71 +1,239 @@
-# Sukanti Agricultural Works — Website
+<div align="center">
 
-React + Vite + TypeScript + Tailwind CSS + Framer Motion + Lucide React.
+# 🌱 SUKANTI AGRICULTURAL WORKS
 
-## 1. Install
+### Reliable Agricultural Service for Better Farming 🚜
 
+**Supporting farmers with trusted agricultural services, modern machinery, and local expertise.**
+
+<br>
+
+[![React](https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=white&style=for-the-badge)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Type_Safe-3178C6?logo=typescript&logoColor=white&style=for-the-badge)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-Build_Tool-646CFF?logo=vite&logoColor=white&style=for-the-badge)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge)](https://tailwindcss.com/)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare-Pages-F38020?logo=cloudflare&logoColor=white&style=for-the-badge)](https://pages.cloudflare.com/)
+
+<br><br>
+
+<a href="https://sukantiagri.pages.dev">
+  <img src="https://img.shields.io/badge/🌾%20VISIT%20LIVE%20WEBSITE-sukantiagri.pages.dev-1f6b3a?style=for-the-badge" alt="Visit Live Website" />
+</a>
+
+</div>
+
+---
+
+## 🚜 Farm Better • Grow Stronger • Together
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/amandv123/sukanti-agricultural-works/main/src/assets/tractor-hero.webp.png" alt="Tractor working in the field - Sukanti Agricultural Works" width="900" />
+
+</div>
+
+> **Sukanti Agricultural Works** is a farmer-focused agricultural service website based in **Udala, Odisha**, created to make local agricultural services easier to discover and contact.
+
+---
+
+## 🌿 About the Project
+
+This repository contains the official website for **Sukanti Agricultural Works**.
+
+The website is designed around a simple idea: **make reliable agricultural services easy for farmers to find.** It presents the business, available services, machinery, location, customer reviews, and direct contact options in a clean and mobile-friendly experience.
+
+### 🌾 Built for Farmers
+
+| 🌱 Quality Service | 🚜 Modern Machinery | 👨‍🌾 For Farmers | 🤝 Local Support |
+|:---:|:---:|:---:|:---:|
+| Reliable agricultural solutions | Tractors, threshers & more | Practical support for farming needs | Serving farmers around Udala |
+
+---
+
+## 🧑‍🌾 What the Website Offers
+
+- 🚜 **Tractor Service** — Cultivation, ploughing, land preparation and field operations
+- 🌾 **Thresher Service** — Threshing support for paddy, wheat and other crops
+- 🌱 **Harvester Service** — Harvesting support with modern machines
+- ⚙️ **Agricultural Machinery** — Access to useful agricultural implements and equipment
+- 🌾 **Farming & Field Work** — Field assistance including planting, spraying and sowing
+- 📍 **Google Maps Location** — Easy directions to Sukanti Agricultural Works
+- 📞 **Direct Call** — One-tap phone contact
+- 💬 **WhatsApp** — Quick enquiry and service contact
+
+---
+
+## 🖥️ Website Preview
+
+<div align="center">
+
+### 🏠 Home
+
+<img src="https://raw.githubusercontent.com/amandv123/sukanti-agricultural-works/main/src/assets/tractor-hero.webp.png" alt="Sukanti Agricultural Works tractor" width="820" />
+
+<br><br>
+
+**Clean • Simple • Farmer Friendly • Mobile Responsive**
+
+</div>
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Technology | Purpose |
+|---|---|
+| ⚛️ **React** | Frontend UI |
+| 🔷 **TypeScript** | Type-safe development |
+| ⚡ **Vite** | Fast development & production build |
+| 🎨 **Tailwind CSS** | Responsive styling |
+| 🎞️ **Framer Motion** | Smooth UI animations |
+| 🧩 **Lucide React** | Clean interface icons |
+| ☁️ **Cloudflare Pages** | Deployment & hosting |
+
+</div>
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/                 # Website images
+├── components/             # Reusable UI sections
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Services.tsx
+│   ├── Machinery.tsx
+│   ├── WhyChooseUs.tsx
+│   ├── Reviews.tsx
+│   ├── Owner.tsx
+│   ├── Location.tsx
+│   ├── Contact.tsx
+│   └── Footer.tsx
+├── data/
+│   ├── business.ts         # Business/contact/location information
+│   └── services.ts         # Service information
+├── App.tsx
+├── main.tsx
+└── index.css
 ```
+
+---
+
+## 🚀 Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/amandv123/sukanti-agricultural-works.git
+cd sukanti-agricultural-works
+```
+
+### 2. Install dependencies
+
+```bash
 npm install
 ```
 
-## 2. Development
+### 3. Start development server
 
-```
+```bash
 npm run dev
 ```
 
-## 3. Production build
+### 4. Create production build
 
-```
+```bash
 npm run build
 ```
 
-Output goes to `dist/`.
+The production output is generated in `dist/`.
 
-## 4. Deploy to Cloudflare Pages
+---
 
-**Option A — Dashboard**
-1. Push this project to a GitHub/GitLab repo.
-2. In Cloudflare Pages, "Create a project" → connect the repo.
-3. Build command: `npm run build`
-4. Build output directory: `dist`
-5. Deploy.
+## ☁️ Deployment
 
-**Option B — Wrangler CLI**
-```
-npm install -g wrangler
+The website is deployed using **Cloudflare Pages** with automatic deployments from the `main` branch.
+
+**Build command:**
+
+```bash
 npm run build
-wrangler pages deploy dist --project-name=sukanti-agricultural-works
 ```
 
-## Editing content
+**Output directory:**
 
-All business info (name, address, phone, WhatsApp, working hours, owner,
-Google links) lives in one file: `src/data/business.ts`. Services list lives
-in `src/data/services.ts`, machinery categories in `src/data/machinery.ts`.
-Edit these — the whole site updates. The logo is isolated in
-`src/components/Logo.tsx` — replace it with the final logo mark as a single
-component swap.
+```text
+dist
+```
 
-## Still needed from you
+---
 
-- Phone number and WhatsApp number → `business.phone`, `business.whatsapp` in
-  `src/data/business.ts` (Call/WhatsApp buttons stay visually present but are
-  inert links until these are filled in)
-- Working hours → `business.workingHours`
-- Owner name and photo → `business.ownerName`, `business.ownerPhoto`
-- Final logo file/component to replace `src/components/Logo.tsx`
-- Real photos: hero (tractor in field), About section, Machinery gallery
-  (Tractor, Thresher, Harvester, Rotavator) — currently icon placeholders
-- Exact Google Maps "Embed a map" iframe `src` URL → `business.googleMapsEmbedUrl`
-- A short, verified 2–3 line business description for the About section
-- Confirmation of the final service list/wording in `src/data/services.ts`
-- Social media profile links for the footer (omitted for now — none provided)
+## ✏️ Updating Business Information
 
-## Note on this build
+Most business information is centralized in:
 
-`npm install` could not be run in this environment (no network access), so
-`npm run build` was not executed here. The code has been reviewed by hand for
-consistent imports, Tailwind tokens, and data references — run
-`npm install && npm run build` locally to do a full compile check before
-deploying.
+```text
+src/data/business.ts
+```
+
+This includes:
+
+- Business name
+- Phone number
+- WhatsApp number
+- Address
+- Google Maps link
+- Google Maps embed
+- Owner information
+- Website URL
+
+Services can be updated from:
+
+```text
+src/data/services.ts
+```
+
+---
+
+## 📍 Business
+
+**SUKANTI AGRICULTURAL WORKS**  
+📍 Village – Harisole – Banko Sahi  
+PO, Via B.C. PUR  
+Hatisahi, Udala  
+Odisha – 757087
+
+**Area Served:** Udala, Odisha 🇮🇳
+
+---
+
+## 📞 Contact
+
+**Call:** +91 7978495920  
+**WhatsApp:** +91 9861639702
+
+🌐 **Website:** https://sukantiagri.pages.dev
+
+---
+
+<div align="center">
+
+## 🌾 Grateful to Our Farmers
+
+**Better Farming · Stronger Communities · Brighter Tomorrow**
+
+🌱 🚜 🌾 🤝 👨‍🌾
+
+<br>
+
+*Built with ❤️ for farmers and the agricultural community.*
+
+<br><br>
+
+© 2026 Sukanti Agricultural Works. All rights reserved.
+
+</div>
