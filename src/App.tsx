@@ -8,7 +8,6 @@ import Reviews from './components/Reviews'
 import Owner from './components/Owner'
 import Location from './components/Location'
 import Contact from './components/Contact'
-import ContactInfoStrip from './components/ContactInfoStrip'
 import Footer from './components/Footer'
 import MobileActionBar from './components/MobileActionBar'
 
@@ -26,7 +25,6 @@ export default function App() {
         <Owner />
         <Location />
         <Contact />
-        <ContactInfoStrip />
       </main>
       <Footer />
       <MobileActionBar />
