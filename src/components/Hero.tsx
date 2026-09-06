@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Leaf, ArrowRight } from 'lucide-react'
 import { business } from '../data/business'
-import tractorImage from '../assets/tractor-hero.webp.png'
+import tractorImage from '../assets/tractor-hero.webp'
 
 export default function Hero() {
   return (
@@ -49,6 +49,10 @@ export default function Hero() {
               src={tractorImage}
               alt="Tractor working in a field for Sukanti Agricultural Works"
               className="block aspect-[16/9] w-full object-cover"
+              width={1536}
+              height={864}
+              loading="eager"
+              fetchPriority="high"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-brand-ink/10 via-transparent to-white/5" />
           </div>
