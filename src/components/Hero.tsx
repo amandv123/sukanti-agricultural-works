@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Leaf, ArrowRight } from 'lucide-react'
 import { business } from '../data/business'
-import tractorImage from '../assets/tractor-hero.webp'
+import tractorImage from '../assets/tractor-hero.webp.png'
 
 export default function Hero() {
   return (
