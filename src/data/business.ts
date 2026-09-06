@@ -22,9 +22,9 @@ export const business = {
   // Google Review link
   googleReviewUrl: 'https://g.page/r/CYBZH9Af_zYfEBI/review',
 
-  // Google Maps location / Get Directions
+  // Google Maps navigation / Get Directions
   googleMapsUrl:
-    'https://www.google.com/maps/dir/?api=1&destination=21.644241240505355,86.60554467234763',
+    'https://www.google.com/maps/dir/?api=1&destination=21.644241240505355,86.60554467234763&travelmode=driving&dir_action=navigate',
 
   // Google Maps Embed
   googleMapsEmbedUrl:
