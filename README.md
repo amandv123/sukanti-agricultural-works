@@ -67,13 +67,30 @@ The website is designed around a simple idea: **make reliable agricultural servi
 
 <div align="center">
 
-### 🏠 Home
+### 🌾 A Website Built Around Farming
 
-<img src="https://raw.githubusercontent.com/amandv123/sukanti-agricultural-works/main/src/assets/tractor-hero.webp.png" alt="Sukanti Agricultural Works tractor" width="820" />
+<table>
+<tr>
+<td align="center" width="50%">
+<img src="https://raw.githubusercontent.com/amandv123/sukanti-agricultural-works/main/src/assets/owner-hero-16x9.png" alt="Sukanti Agricultural Works" width="430" />
+<br>
+<strong>🤝 People Behind the Work</strong>
+</td>
+<td align="center" width="50%">
+<img src="https://raw.githubusercontent.com/amandv123/sukanti-agricultural-works/main/src/assets/tractor-hero.webp.png" alt="Agricultural machinery in the field" width="430" />
+<br>
+<strong>🚜 Modern Agricultural Service</strong>
+</td>
+</tr>
+</table>
 
-<br><br>
+<br>
 
 **Clean • Simple • Farmer Friendly • Mobile Responsive**
+
+<a href="https://sukantiagri.pages.dev">
+  <img src="https://img.shields.io/badge/🌐%20OPEN%20LIVE%20WEBSITE-1f6b3a?style=for-the-badge" alt="Open Live Website" />
+</a>
 
 </div>
 
@@ -196,27 +213,6 @@ Services can be updated from:
 ```text
 src/data/services.ts
 ```
-
----
-
-## 📍 Business
-
-**SUKANTI AGRICULTURAL WORKS**  
-📍 Village – Harisole – Banko Sahi  
-PO, Via B.C. PUR  
-Hatisahi, Udala  
-Odisha – 757087
-
-**Area Served:** Udala, Odisha 🇮🇳
-
----
-
-## 📞 Contact
-
-**Call:** +91 7978495920  
-**WhatsApp:** +91 9861639702
-
-🌐 **Website:** https://sukantiagri.pages.dev
 
 ---
 
