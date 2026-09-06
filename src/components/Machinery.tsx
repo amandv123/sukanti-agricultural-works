@@ -39,14 +39,14 @@ export default function Machinery() {
               transition={{ duration: 0.4, delay: i * 0.05 }}
               className="group overflow-hidden rounded-lg border border-black/5 bg-white shadow-card sm:rounded-2xl"
             >
-              <div className="relative flex h-14 items-center justify-center overflow-hidden bg-gradient-to-br from-brand-surface to-[#E4EBD8] sm:aspect-square sm:h-auto">
-                <Icon size={24} strokeWidth={1.3} className="text-brand-deep/70 transition-transform duration-300 group-hover:scale-110 sm:hidden" />
+              <div className="relative flex h-28 items-center justify-center overflow-hidden bg-gradient-to-br from-brand-surface to-[#E4EBD8] sm:aspect-square sm:h-auto">
+                <Icon size={28} strokeWidth={1.3} className="text-brand-deep/70 transition-transform duration-300 group-hover:scale-110 sm:hidden" />
                 <Icon size={40} strokeWidth={1.3} className="hidden text-brand-deep/70 transition-transform duration-300 group-hover:scale-110 sm:block" />
-                <span className="absolute right-1 top-1 text-[7px] font-medium text-brand-ink/35 sm:right-2 sm:top-2 sm:text-[10px]">
+                <span className="absolute right-1.5 top-1.5 text-[8px] font-medium text-brand-ink/35 sm:right-2 sm:top-2 sm:text-[10px]">
                   [photo]
                 </span>
               </div>
-              <p className="px-1.5 py-1.5 text-[10px] font-semibold leading-3.5 text-brand-ink sm:px-3 sm:py-3 sm:text-sm">
+              <p className="px-2 py-2 text-[11px] font-semibold leading-4 text-brand-ink sm:px-3 sm:py-3 sm:text-sm">
                 {name}
               </p>
             </motion.div>
