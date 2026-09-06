@@ -10,7 +10,6 @@ export const business = {
 
   phone: '+91 7978495920',
   whatsapp: '+91 9861639702',
-  workingHours: '[WORKING HOURS]',
 
   address: {
     line1: 'Village – Harisole – Banko Sahi',
