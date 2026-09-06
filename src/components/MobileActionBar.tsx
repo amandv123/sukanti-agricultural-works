@@ -1,18 +1,16 @@
-import { Phone, MessageCircle, Navigation } from 'lucide-react'
+import { Phone, MessageCircle } from 'lucide-react'
 import {
-  business,
   getCallHref,
   getWhatsAppHref,
   hasRealPhone,
   hasRealWhatsApp,
 } from '../data/business'
 
-// Only Directions is guaranteed live (the Google link is provided). Call and
-// WhatsApp render as disabled-looking items until real numbers are added.
+// Quick contact actions for mobile users.
 export default function MobileActionBar() {
   return (
     <nav
-      className="md:hidden fixed bottom-0 inset-x-0 z-40 bg-white/95 backdrop-blur border-t border-black/10 grid grid-cols-3"
+      className="md:hidden fixed bottom-0 inset-x-0 z-40 bg-white/95 backdrop-blur border-t border-black/10 grid grid-cols-2"
       style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
       aria-label="Quick actions"
     >
@@ -31,21 +29,12 @@ export default function MobileActionBar() {
         target={hasRealWhatsApp() ? '_blank' : undefined}
         rel="noopener noreferrer"
         aria-disabled={!hasRealWhatsApp()}
-        className={`flex flex-col items-center gap-0.5 py-2.5 border-x border-black/10 ${
+        className={`flex flex-col items-center gap-0.5 py-2.5 border-l border-black/10 ${
           hasRealWhatsApp() ? 'text-brand-fresh' : 'text-brand-ink/35'
         }`}
       >
         <MessageCircle size={20} />
         <span className="text-[11px] font-medium">WhatsApp</span>
-      </a>
-      <a
-        href={business.googleMapsUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex flex-col items-center gap-0.5 py-2.5 text-brand-gold"
-      >
-        <Navigation size={20} />
-        <span className="text-[11px] font-medium">Directions</span>
       </a>
     </nav>
   )
