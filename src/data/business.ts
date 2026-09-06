@@ -8,8 +8,8 @@ export const business = {
   badge: 'Reliable Agricultural Service',
   areaServed: 'Udala, Odisha',
 
-  phone: '[PHONE NUMBER]',
-  whatsapp: '[WHATSAPP NUMBER]',
+  phone: '+91 7978495920',
+  whatsapp: '+91 9861639702',
   workingHours: '[WORKING HOURS]',
 
   address: {
@@ -19,12 +19,16 @@ export const business = {
     line4: 'Odisha – 757087',
   },
 
-  // Same link supplied for both the review CTA and the maps CTA.
+  // Google Review link
   googleReviewUrl: 'https://g.page/r/CYBZH9Af_zYfEBI/review',
-  googleMapsUrl: 'https://g.page/r/CYBZH9Af_zYfEBI/review',
 
-  // Paste the exact Google Maps "Embed a map" iframe src here once available.
-  googleMapsEmbedUrl: '',
+  // Google Maps location / Get Directions
+  googleMapsUrl:
+    'https://www.google.com/maps/search/?api=1&query=21.644241240505355,86.60554467234763',
+
+  // Google Maps Embed
+  googleMapsEmbedUrl:
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231.78150301666332!2d86.60554467234763!3d21.644241240505355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1c49404a96a6cf%3A0x1f36ff1fd01f5980!2sSUKANTI%20AGRICULTURAL%20WORKS!5e0!3m2!1sen!2sin!4v1788680251448!5m2!1sen!2sin',
 
   ownerName: 'Sukanti Tudu',
   ownerPhoto: '/src/assets/owner-hero-16x9.png',
@@ -32,7 +36,9 @@ export const business = {
   websiteUrl: 'https://sukantiagri.in',
 } as const
 
-export const getCallHref = () => `tel:${business.phone.replace(/[^\d+]/g, '')}`
+export const getCallHref = () =>
+  `tel:${business.phone.replace(/[^\d+]/g, '')}`
+
 export const getWhatsAppHref = () =>
   `https://wa.me/${business.whatsapp.replace(/[^\d]/g, '')}`
 
