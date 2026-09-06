@@ -24,14 +24,14 @@ export const business = {
 
   // Google Maps location / Get Directions
   googleMapsUrl:
-    'https://www.google.com/maps/search/?api=1&query=21.644241240505355,86.60554467234763',
+    'https://www.google.com/maps/dir/?api=1&destination=21.644241240505355,86.60554467234763',
 
   // Google Maps Embed
   googleMapsEmbedUrl:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231.78150301666332!2d86.60554467234763!3d21.644241240505355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1c49404a96a6cf%3A0x1f36ff1fd01f5980!2sSUKANTI%20AGRICULTURAL%20WORKS!5e0!3m2!1sen!2sin!4v1788680251448!5m2!1sen!2sin',
 
   ownerName: 'Sukanti Tudu',
-  ownerPhoto: '/src/assets/owner-hero-16x9.png',
+  ownerPhoto: '/src/assets/owner-hero-16x9.webp',
 
   websiteUrl: 'https://sukantiagri.in',
 } as const
