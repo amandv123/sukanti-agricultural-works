@@ -6,7 +6,7 @@ import {
   hasRealWhatsApp,
 } from '../data/business'
 
-// Quick contact actions for mobile users.
+// Mobile quick contact actions: Call and WhatsApp only.
 export default function MobileActionBar() {
   return (
     <nav
