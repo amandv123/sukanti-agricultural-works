@@ -1,4 +1,4 @@
-import { Phone, MessageCircle, Navigation } from 'lucide-react'
+import { Phone, MessageCircle } from 'lucide-react'
 import {
   business,
   getCallHref,
@@ -18,7 +18,7 @@ export default function Contact() {
           Get in touch with {business.businessName}.
         </p>
 
-        <div className="mt-8 flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
+        <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4">
           <a
             href={hasRealPhone() ? getCallHref() : undefined}
             aria-disabled={!hasRealPhone()}
@@ -34,14 +34,6 @@ export default function Contact() {
             className="inline-flex items-center justify-center gap-2 rounded-full bg-brand-fresh text-white px-6 py-3.5 font-semibold hover:brightness-95 transition"
           >
             <MessageCircle size={18} /> WhatsApp
-          </a>
-          <a
-            href={business.googleMapsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 rounded-full border border-white/35 px-6 py-3.5 font-semibold hover:bg-white/10 transition"
-          >
-            <Navigation size={18} /> Get Directions
           </a>
         </div>
 
