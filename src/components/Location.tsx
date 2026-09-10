@@ -22,8 +22,6 @@ export default function Location() {
               {business.address.line2}
               <br />
               {business.address.line3}
-              <br />
-              {business.address.line4}
             </address>
           </div>
 
