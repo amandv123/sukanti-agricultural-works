@@ -12,10 +12,9 @@ export const business = {
   whatsapp: '+91 9861639702',
 
   address: {
-    line1: 'Village – Harisole – Banko Sahi',
-    line2: 'PO, Via B.C. PUR',
-    line3: 'Hatisahi, Udala',
-    line4: 'Odisha – 757087',
+    line1: 'Village – Harisole – Bankosahi',
+    line2: 'PO- Hatisahi, Via- B.C.PUR, PS- Udala',
+    line3: 'Odisha – 757087',
   },
 
   // Google Review link
