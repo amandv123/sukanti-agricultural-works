@@ -10,7 +10,7 @@ export default function Services() {
           Our Agricultural Services
         </h2>
 
-        <div className="mx-auto mt-6 grid max-w-5xl grid-cols-2 gap-2 sm:mt-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
+        <div className="mx-auto mt-6 grid max-w-5xl grid-cols-2 gap-2 sm:mt-10 sm:grid-cols-2 sm:gap-5 lg:flex lg:justify-center lg:gap-5">
           {services.map((s, i) => {
             const Icon = s.icon
             return (
@@ -20,7 +20,7 @@ export default function Services() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.4 }}
                 transition={{ duration: 0.4, delay: i * 0.05 }}
-                className="group min-h-0 rounded-lg border border-black/5 bg-white p-2.5 text-left shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-cardHover sm:rounded-2xl sm:p-6"
+                className="group min-h-0 rounded-lg border border-black/5 bg-white p-2.5 text-left shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-cardHover sm:rounded-2xl sm:p-6 lg:w-[320px]"
               >
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-brand-fresh/15 text-brand-deep sm:h-12 sm:w-12">
                   <Icon size={17} strokeWidth={1.8} />
