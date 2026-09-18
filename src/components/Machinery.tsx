@@ -29,7 +29,7 @@ export default function Machinery() {
           </a>
         </motion.div>
 
-        <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 sm:gap-4">
+        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-4">
           {machinery.map(({ icon: Icon, name }, i) => (
             <motion.div
               key={name}
