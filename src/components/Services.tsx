@@ -10,7 +10,7 @@ export default function Services() {
           Our Agricultural Services
         </h2>
 
-        <div className="mt-6 grid grid-cols-2 gap-2 sm:mt-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-5">
+        <div className="mx-auto mt-6 grid max-w-5xl grid-cols-2 gap-2 sm:mt-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
           {services.map((s, i) => {
             const Icon = s.icon
             return (
